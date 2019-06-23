@@ -1028,10 +1028,12 @@ select {
 
 .form-group .select_container::before {
 	background: #f0f0f0;
+    z-index: -1;
 }
 
 .form-group .select_container::after {
 	color: #e58804;
+    z-index: -1;
 }
 
 .select_container {

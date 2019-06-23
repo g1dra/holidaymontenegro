@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/index', function (){
-    return view('layouts.index');
+    return view('layouts.master');
 });
 Auth::routes();
 
