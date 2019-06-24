@@ -26,7 +26,9 @@
 
             @include('layouts.header')
 
-            @include('layouts.sections.page-slider')
+            @yield('content')
+
+            {{--            @include('layouts.sections.page-slider')--}}
 
             {{--<section id="about"
                      class="ls s-pt-70 s-pb-65 s-pt-md-120 s-pb-md-105 s-pb-xl-85 s-pt-xl-65 about-section overflow-visible">
@@ -509,7 +511,7 @@
                 </div>
             </section>--}}
 
-            @include('layouts.sections.trips')
+{{--            @include('layouts.sections.trips')--}}
 
             {{--<section id="news" class="ls section-news s-pb-80 s-pb-md-120 s-pb-xl-160">
                 <div class="container">

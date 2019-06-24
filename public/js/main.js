@@ -881,7 +881,7 @@ function documentReadyInit() {
 	});
 
 	//MailChimp subscribe form processing
-	$('.signup').on('submit', function( e ) {
+	/*$('.signup').on('submit', function( e ) {
 		e.preventDefault();
 		var $form = $(this);
 		// update user interface
@@ -891,6 +891,28 @@ function documentReadyInit() {
 			url: 'mailchimp/store-address.php',
 			data: 'ajax=true&email=' + escape($form.find('.mailchimp_email').val()),
 			success: function(msg) {
+				$form.find('.response').html(msg);
+			}
+		});
+	});*/
+
+	$('.signup').on('submit', function( e ) {
+		e.preventDefault();
+		var $form = $(this);
+		// update user interface
+		$form.find('.response').html('Adding email address...');
+		// Prepare query string and send AJAX request
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+		jQuery.ajax({
+			url: '/newsletter',
+            type: 'POST',
+			data: escape($form.find('.mailchimp_email').val()),
+			success: function(msg) {
+			    alert(msg);
 				$form.find('.response').html(msg);
 			}
 		});

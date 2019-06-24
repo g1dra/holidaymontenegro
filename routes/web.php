@@ -12,12 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('coming-soon');
 });
 
 Route::get('/index', function (){
-    return view('layouts.master');
+    return view('coming-soon');
 });
+
+Route::post('/newsletter', function (){
+    return response()->json('success');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
