@@ -46,9 +46,28 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <p>+382 63 493 586</p>
+
+                        </li>
+                        <li class="icon-inline">
+                            <div class="icon-styled icon-top color-main fs-14">
+                                <i class="fa fa-phone"></i>
+                            </div>
                             <p>+382 63 493 587</p>
+
+                        </li>
+                        <li class="icon-inline">
+                            <div class="icon-styled icon-top color-main fs-14">
+                                <i class="fa fa-phone"></i>
+                            </div>
                             <p>+382 67 094 002</p>
+
+                        </li>
+                        <li class="icon-inline">
+                            <div class="icon-styled icon-top color-main fs-14">
+                                <i class="fa fa-phone"></i>
+                            </div>
                             <p>+382 67 258 232</p>
+
                         </li>
                         <li class="icon-inline">
                             <div class="icon-styled icon-top color-main fs-14">
@@ -59,6 +78,9 @@
                             </p>
                         </li>
                     </ul>
+                    {{--<p>+382 63 493 587</p>
+                            <p>+382 67 094 002</p>
+                            <p>+382 67 258 232</p>--}}
                     <span class="social-icons">
 									<a href="#" class="fa fa-facebook bg-light border-icon rounded-icon"
                                        title="facebook"></a>
