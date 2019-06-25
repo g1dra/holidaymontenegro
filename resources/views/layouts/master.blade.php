@@ -642,7 +642,7 @@
 </div>
 
 @include('layouts.footer-scripts')
-
+@yield('custom-scripts')
 
 </body>
 

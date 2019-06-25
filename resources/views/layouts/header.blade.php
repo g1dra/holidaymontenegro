@@ -4,13 +4,21 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-4 col-xl-4">
-                    <div class="media">
+                    <div class="media" id="holiday-numbers-holder">
+                        <div id = "holiday-icon-holder">
 									<span class="icon-styled ">
 										<i class="fa color-main2 fa-phone"></i>
 									</span>
-                        <div class="media-body">
-                            <span class="small-text">Booking your trip</span>
-                            <p>3 (800) 234 3695</p>
+                        </div>
+{{--                        <div class="media-body">--}}
+{{--                            <span class="small-text">Booking your trip</span>--}}
+
+{{--                        </div>--}}
+                        <div id="holiday-phone-holder">
+                            <p> <span class="flag-icon flag-icon-tr"></span> +38263493586</p>
+                            <p title="WhatsApp"> <span class="flag-icon flag-icon-tr"></span> +38263493586</p>
+                            <p> <span class="flag-icon flag-icon-me"></span> +38267094002</p>
+                            <p> <span class="flag-icon flag-icon-me"></span> +38267258232</p>
                         </div>
                     </div>
                 </div>
@@ -23,7 +31,7 @@
                     <div class="media">
                         <div class="media-body align-items-end">
                             <span class="small-text">our emailaddress</span>
-                            <p>mountis@office.com</p>
+                            <p>info@holidaymontenegro.com</p>
                         </div>
                         <span class="icon-styled ">
 										<i class="fa color-main2 fa-pencil"></i>

@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-    <title>Mountis</title>
+    <title>Holidaymontenegro</title>
     <meta charset="utf-8">
     <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,13 +20,14 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/animations.css">
     <link rel="stylesheet" href="/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="/css/main3.css" class="color-switcher-link">
     <script src="/js/vendor/modernizr-custom.js"></script>
 
     <!--[if lt IE 9]>
-    <script src="js/vendor/html5shiv.min.js"></script>
-    <script src="js/vendor/respond.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/js/vendor/html5shiv.min.js"></script>
+    <script src="/js/vendor/respond.min.js"></script>
+    <script src="/js/vendor/jquery-1.12.4.min.js"></script>
     <![endif]-->
 
 </head>

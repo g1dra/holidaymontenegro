@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Facades\Redis;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+    Redis::set('test2','test2');
     return view('coming-soon');
 });
 
@@ -19,9 +20,13 @@ Route::get('/index', function (){
     return view('coming-soon');
 });
 
-Route::post('/newsletter', function (){
-    return response()->json('success');
-});
+Route::post('/newsletter', 'PageController@subscribe');
+//
+//Route::post('/newsletter', function (){
+//    dd($_POST);
+//    Redis::set('test','test');
+//    return response()->json('success');
+//});
 
 Auth::routes();
 

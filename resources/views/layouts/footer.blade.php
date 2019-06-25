@@ -32,27 +32,27 @@
                     <a href="./" class="logo flex-column text-center pb-0">
                         <img src="/images/logo.png" alt="logo">
                     </a>
-                    <p>We are one of San Diego's most active social groups. Every month we create a variety of
+                    <p>We are one of Podgorica's most active social groups. Every month we create a variety of
                         fun & interesting events.</p>
                     <ul class="mb-10">
                         <li class="icon-inline">
                             <div class="icon-styled icon-top color-main fs-14">
                                 <i class="fa fa-map-marker"></i>
                             </div>
-                            <p>192 Lemke Stream, San Diego, USA</p>
+                            <p>Bratstva jedinstva bb, Podgorica, Montenegro</p>
                         </li>
                         <li class="icon-inline">
                             <div class="icon-styled icon-top color-main fs-14">
                                 <i class="fa fa-phone"></i>
                             </div>
-                            <p>+8 (800) 247 2698 (operator)</p>
+                            <p>+38263493586</p>
                         </li>
                         <li class="icon-inline">
                             <div class="icon-styled icon-top color-main fs-14">
                                 <i class="fa fa-pencil"></i>
                             </div>
                             <p>
-                                <a href="#">mountis_trip@example.com</a>
+                                <a href="#">info@holidaymontenegro.com</a>
                             </p>
                         </li>
                     </ul>
@@ -84,7 +84,7 @@
             <div class="divider-20 d-none d-lg-block"></div>
             <div class="divider-10 d-none d-md-block"></div>
             <div class="col-md-12 text-center">
-                <p>&copy; Copyright <span class="copyright_year">2018</span> All Rights Reserved</p>
+                <p>&copy; Copyright holidaymontenegro.com<span class="copyright_year">2019</span> All Rights Reserved</p>
             </div>
             <div class="divider-20 d-none d-lg-block"></div>
             <div class="divider-10 d-none d-md-block"></div>

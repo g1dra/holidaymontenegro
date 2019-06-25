@@ -1,0 +1,22 @@
+#holiday-numbers-holder{
+    align-items: unset !important;
+    justify-content: space-evenly !important;
+    flex-direction: row;
+}
+
+#holiday-icon-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#holiday-phone-holder{
+
+}
+
+#holiday-phone-holder p{
+    display: flex;
+    font-size: 17px;
+    flex: 1;
+    justify-content: space-evenly;
+}

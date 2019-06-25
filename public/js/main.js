@@ -910,9 +910,9 @@ function documentReadyInit() {
 		jQuery.ajax({
 			url: '/newsletter',
             type: 'POST',
-			data: escape($form.find('.mailchimp_email').val()),
+			data: {mail: escape($form.find('.mailchimp_email').val())},
 			success: function(msg) {
-			    alert(msg);
+			    // alert(msg);
 				$form.find('.response').html(msg);
 			}
 		});

@@ -24,7 +24,7 @@
 
                     <div class="widget widget_mailchimp">
 
-                        <h3 class="widget-title text-center">Welcome to Holiday Montenegro !!</h3>
+                        <h3 class="widget-title text-center">Welcome to Holiday Montenegro !</h3>
 
                         <p>
                             Subscribe to our Newsletter to be updated.
@@ -55,9 +55,8 @@
 
         </div>
     </section>
-    <script>
-
-    </script>
 @endsection
+@section('custom-scripts')
 
+@endsection
 
