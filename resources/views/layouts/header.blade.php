@@ -15,10 +15,10 @@
 
 {{--                        </div>--}}
                         <div id="holiday-phone-holder">
-                            <p> <span class="flag-icon flag-icon-tr"></span> +38263493586</p>
-                            <p title="WhatsApp"> <span class="flag-icon flag-icon-tr"></span> +38263493586</p>
-                            <p> <span class="flag-icon flag-icon-me"></span> +38267094002</p>
-                            <p> <span class="flag-icon flag-icon-me"></span> +38267258232</p>
+                            <p> <span class="flag-icon flag-icon-tr"></span> +382 63 493 586</p>
+                            <p title="WhatsApp"> <span class="flag-icon flag-icon-tr"></span> +382 63 493 587</p>
+                            <p> <span class="flag-icon flag-icon-me"></span> +382 67 094 002</p>
+                            <p> <span class="flag-icon flag-icon-me"></span> +382 67 258 232</p>
                         </div>
                     </div>
                 </div>
