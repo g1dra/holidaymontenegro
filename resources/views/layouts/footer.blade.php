@@ -82,12 +82,12 @@
                             <p>+382 67 094 002</p>
                             <p>+382 67 258 232</p>--}}
                     <span class="social-icons">
-									<a href="#" class="fa fa-facebook bg-light border-icon rounded-icon"
-                                       title="facebook"></a>
-									<a href="#" class="fa fa-twitter bg-light border-icon rounded-icon"
+									<a href="https://www.facebook.com/Holidaymontenegro-1036397043232878/?ref=bookmarks" class="fa fa-facebook bg-light border-icon rounded-icon"
+                                       title="facebook montenegro"></a>
+                                    <a href="https://www.facebook.com/Karadagdatatil/?ref=bookmarks" class="fa fa-facebook bg-light border-icon rounded-icon"
+                                       title="facebook turkey"></a>
+									<a href="https://twitter.com/karadagdatatil" class="fa fa-twitter bg-light border-icon rounded-icon"
                                        title="twitter"></a>
-									<a href="#" class="fa fa-google bg-light border-icon rounded-icon"
-                                       title="google"></a>
 								</span>
                 </div>
             </div>
