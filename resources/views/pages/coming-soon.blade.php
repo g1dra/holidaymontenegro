@@ -8,6 +8,9 @@
 
                 <div class="col-sm-12 text-center">
                     <h2 class=" text-center">
+                        <br>
+                        <br>
+                        <br>
                         Coming Soon!
                     </h2>
                     <div class="d-none d-lg-block divider-90"></div>

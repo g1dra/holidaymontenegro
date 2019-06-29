@@ -6,7 +6,22 @@
 
 require('./bootstrap');
 import 'flag-icon-css/css/flag-icon.min.css';
-window.Vue = require('vue');
+import Vue from 'vue'
+import Vuex from 'vuex'
+import axios from 'axios'
+// import store from './store'
+Vue.use(Vuex)
+let store = new Vuex.Store({
+    state: {
+        events: []
+    },
+    mutations: {
+        addEvents(state, payload){
+            state.events.push(payload)
+        }
+    }
+})
+// window.Vue = require('vue');
 
 /**
  * The following block of code may be used to automatically register your
@@ -29,4 +44,5 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
+    store
 });

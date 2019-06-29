@@ -10,19 +10,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('coming-soon');
-});
+Auth::routes();
 
-Route::get('/index', function (){
-    return view('coming-soon');
-});
-
+Route::get('/', 'PageController@comingSoon');
+Route::get('/index', 'PageController@comingSoon');
+Route::get('/test', 'PageController@test');
+Route::get('/faq', 'PageController@faq');
+Route::get('/about', 'PageController@about');
+Route::get('/contact', 'PageController@contact');
 Route::post('/newsletter', 'PageController@subscribe');
 
 Route::resource('/events', 'EventController');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-

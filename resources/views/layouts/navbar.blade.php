@@ -1,7 +1,8 @@
 <div class="col-lg-12 col-1">
     <!-- main nav start -->
+    <div class="nav-wrap">
     <nav class="top-nav">
-        <ul class="nav sf-menu">
+        <ul class="nav sf-menu sf-js-enabled sf-arrows">
 
 
             <li class="active">
@@ -46,13 +47,13 @@
                 </ul>
             </li>
             <li>
-                <a href="faq.html">About</a>
+                <a href="/about">About</a>
             </li>
             <li>
-                <a href="faq.html">FAQ</a>
+                <a href="/faq">FAQ</a>
             </li>
             <li>
-                <a href="faq.html">Contact</a>
+                <a href="/contact">Contact</a>
             </li>
 
             <!-- eof Gallery -->
@@ -69,5 +70,6 @@
 
 
     </nav>
+    </div>
     <!-- eof main nav -->
 </div>
