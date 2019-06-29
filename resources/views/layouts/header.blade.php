@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-center hidden-below-md">
+                <div class="col-md-4 text-center hidden-below-md" style="margin: 0">
                     <a href="./" >
                         <img src="/images/logo.png" alt="img">
                     </a>
