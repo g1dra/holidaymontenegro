@@ -29,7 +29,7 @@
 
             <div class=" col-lg-4 text-center animate" data-animation="fadeInUp">
                 <div class="widget widget_icons_list">
-                    <a href="./" class="logo flex-column text-center pb-0">
+                    <a href="./" class="flex-column text-center pb-0">
                         <img src="/images/logo.png" alt="logo">
                     </a>
                     <p>We are one of Podgorica's most active social groups. Every month we create a variety of
