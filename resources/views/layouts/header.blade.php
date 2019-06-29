@@ -64,7 +64,7 @@
                                     <img src="images/flags/us.gif" alt="img">
                                     English
                                 </a>
-                                <div class="dropdown-menu ls" aria-labelledby="dropdown-language" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(25px, 18px, 0px);">
+                                <div class="dropdown-menu ls" aria-labelledby="dropdown-language" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(25px, 18px, 0px); padding: 20px;">
                                     <a href="#"><img src="images/flags/tr.gif" alt="img">Turkish</a>
 
                                 </div>
