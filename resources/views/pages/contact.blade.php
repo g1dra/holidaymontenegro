@@ -5,13 +5,10 @@
             <div class="row">
 
                 <div class="col-md-12 text-center">
-                    <h1 class="bold">FAQ</h1>
+                    <h1 class="bold">Contact</h1>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">
                             <a href="./">Home</a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="#">Pages</a>
                         </li>
                         <li class="breadcrumb-item active">
                             FAQ
@@ -44,7 +41,16 @@
 										</span>
                                 <div class="media-body">
                                     <span class="small-text">Booking your trip</span>
-                                    <p>3 (800) 234 3695</p>
+                                    <p><span class="flag-icon flag-icon-tr"></span>+382 63 493 586 </p>
+
+                                    <span class="small-text">Booking your trip</span>
+                                    <p><span class="flag-icon flag-icon-tr"></span> +382 63 493 587</p>
+
+                                    <span class="small-text">Booking your trip</span>
+                                    <p><span class="flag-icon flag-icon-me"></span> +382 67 094 002</p>
+
+                                    <span class="small-text">Booking your trip</span>
+                                    <p><span class="flag-icon flag-icon-me"></span> +382 67 258 232</p>
                                 </div>
                             </div>
                         </li>
@@ -55,7 +61,7 @@
 										</span>
                                 <div class="media-body">
                                     <span class="small-text">our ADDRESS</span>
-                                    <p>192 Lemke Stream, San Diego, USA</p>
+                                    <p>Bratstva Jedinstva bb</p>
                                 </div>
                             </div>
                         </li>
@@ -66,7 +72,7 @@
 										</span>
                                 <div class="media-body">
                                     <span class="small-text">EMAIL address</span>
-                                    <p>mountis_office@example.com</p>
+                                    <p>info@holidaymontenegro.com</p>
                                 </div>
                             </div>
                         </li>
@@ -77,7 +83,8 @@
 										</span>
                                 <div class="media-body">
                                     <span class="small-text">Working Hours:</span>
-                                    <p>Daily: 9 am - 6 pm </p>
+                                    <p>Daily: 9 am - 6 pm / 09h - 18h </p>
+
                                 </div>
                             </div>
                         </li>
@@ -91,7 +98,8 @@
                     <h4 class="text-left mb-35">
                         Contact Form
                     </h4>
-                    <form class="contact-form c-mb-20 c-gutter-20" method="post" action="/">
+                    <form class="contact-form c-mb-20 c-gutter-20" method="post" action="/send-email">
+                        @csrf
 
                         <div class="row">
 

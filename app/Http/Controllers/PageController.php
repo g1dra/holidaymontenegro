@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Event;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redis;
+use App\Mail\ContactMail;
 
 class PageController extends Controller
 {
@@ -41,6 +42,14 @@ class PageController extends Controller
         $events = Event::all();
         $events = json_encode($events);
         return view('test', compact('events'));
+    }
+
+    public function sendMail(Request $request)
+    {
+        $user = new \stdClass();
+        $user->email = 'info@holidaymontenegro.com';
+        \Mail::to($user)->send(new ContactMail($request));
+        return 'success';
     }
 
 }

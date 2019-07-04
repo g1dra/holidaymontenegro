@@ -19,5 +19,6 @@ Route::get('/faq', 'PageController@faq');
 Route::get('/about', 'PageController@about');
 Route::get('/contact', 'PageController@contact');
 Route::post('/newsletter', 'PageController@subscribe');
+Route::post('/send-mail', 'PageController@sendMail');
 
 Route::resource('/events', 'EventController');
