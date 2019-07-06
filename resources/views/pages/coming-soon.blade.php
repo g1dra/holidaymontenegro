@@ -15,7 +15,7 @@
                     </h2>
                     <div class="d-none d-lg-block divider-90"></div>
 
-                    <div id="comingsoon-countdown" data-date="July 4, 2019 23:59:59"></div>
+                    <div id="comingsoon-countdown" data-date="July 8, 2019 23:59:59"></div>
                     <!--
             use "data-date" attribute with your date value to set date that you need to count to
             <div id="comingsoon-countdown" data-date="March 29, 2018 10:00:00"></div>
