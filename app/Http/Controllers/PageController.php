@@ -9,6 +9,11 @@ use App\Mail\ContactMail;
 
 class PageController extends Controller
 {
+    public function home()
+    {
+        return view('pages.home');
+    }
+
     public function comingSoon()
     {
         return view('pages.coming-soon');
@@ -50,6 +55,21 @@ class PageController extends Controller
         $user->email = 'info@holidaymontenegro.com';
         \Mail::to($user)->send(new ContactMail($request));
         return 'success';
+    }
+
+    public function rent_a_car()
+    {
+        return view('pages.rent_a_car');
+    }
+
+    public function transfers()
+    {
+        return view('pages.transfers');
+    }
+
+    public function apartments()
+    {
+        return view('pages.apartments');
     }
 
 }

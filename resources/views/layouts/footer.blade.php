@@ -103,16 +103,36 @@
     </div>
 </footer>
 
-<section class="page_copyright ls s-py-5">
+{{--<section class="page_copyright ls s-py-5">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row align-items-center">--}}
+{{--            <div class="divider-20 d-none d-lg-block"></div>--}}
+{{--            <div class="divider-10 d-none d-md-block"></div>--}}
+{{--            <div class="col-md-12 text-center">--}}
+{{--                <p>&copy; Copyright holidaymontenegro.com<span class="copyright_year">2019</span> All Rights Reserved</p>--}}
+{{--            </div>--}}
+{{--            <div class="divider-20 d-none d-lg-block"></div>--}}
+{{--            <div class="divider-10 d-none d-md-block"></div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
+<section class="page_copyright ls s-py-10">
     <div class="container">
         <div class="row align-items-center">
-            <div class="divider-20 d-none d-lg-block"></div>
-            <div class="divider-10 d-none d-md-block"></div>
-            <div class="col-md-12 text-center">
-                <p>&copy; Copyright holidaymontenegro.com<span class="copyright_year">2019</span> All Rights Reserved</p>
+            <div class="divider-10 d-none d-lg-block"></div>
+            <div class="col-md-6 text-center text-md-left animate" data-animation="scaleAppear">
+                <p>&copy; Copyright <span class="underline"><a href="#">holidaymontenegro</a></span> <span class="copyright_year">2019</span> All Rights Reserved</p>
             </div>
-            <div class="divider-20 d-none d-lg-block"></div>
-            <div class="divider-10 d-none d-md-block"></div>
+            <div class="col-md-6 text-center text-md-right animate" data-animation="scaleAppear">
+                <div class="color-darkgrey">
+                    <i class="fs-36 fa fa-cc-visa"></i>
+                    <i class="fs-36 fa fa-cc-discover"></i>
+                    <i class="fs-36 fa fa-cc-mastercard"></i>
+                    <i class="fs-36 fa fa-cc-amex"></i>
+                    <i class="fs-36 fa fa-cc-paypal"></i>
+                </div>
+            </div>
+            <div class="divider-10 d-none d-lg-block"></div>
         </div>
     </div>
 </section>

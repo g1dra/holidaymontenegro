@@ -13,8 +13,11 @@
 Auth::routes();
 
 Route::get('/', 'PageController@comingSoon');
+Route::get('/home', 'PageController@home');
 Route::get('/index', 'PageController@comingSoon');
-Route::get('/test', 'PageController@test');
+Route::get('/rent_a_car', 'PageController@rent_a_car');
+Route::get('/transfers', 'PageController@transfers');
+Route::get('/apartments', 'PageController@apartments');
 Route::get('/faq', 'PageController@faq');
 Route::get('/about', 'PageController@about');
 Route::get('/contact', 'PageController@contact');

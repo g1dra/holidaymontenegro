@@ -5,8 +5,8 @@
         <ul class="nav sf-menu sf-js-enabled sf-arrows">
 
 
-            <li class="{{ Request::is('/') ? 'active' : '' }}">
-                <a href="/" >HomePage</a>
+            <li class="{{ Request::is('/home') ? 'active' : '' }}">
+                <a href="/home" >HomePage</a>
 {{--                <ul>--}}
 {{--                    <li>--}}
 {{--                        <a href="index.html">MultiPage</a>--}}
@@ -19,36 +19,53 @@
 {{--                    </li>--}}
 {{--                </ul>--}}
             </li>
-            <li class="{{ Request::is('events') ? 'active' : '' }}">
-                <a href="/events" >Events</a>
-                <ul>
+{{--            <li class="{{ Request::is('events') ? 'active' : '' }}">--}}
+{{--                <a href="/events" >Events</a>--}}
+{{--                <ul>--}}
 
 
-                    <li>
-                        <a href="about.html">Boat Tours</a>
-                    </li>
+{{--                    <li>--}}
+{{--                        <a href="about.html">Boat Tours</a>--}}
+{{--                    </li>--}}
 
 
-                    <!-- features -->
-                    <li>
-                        <a href="shortcodes_iconbox.html">Jeep Safari</a>
-                    </li>
+{{--                    <!-- features -->--}}
+{{--                    <li>--}}
+{{--                        <a href="shortcodes_iconbox.html">Jeep Safari</a>--}}
+{{--                    </li>--}}
 
-                    <li>
-                        <a href="shortcodes_iconbox.html">Mountain Biking</a>
-                    </li>
-                    <li>
-                        <a href="comingsoon.html">Comingsoon</a>
-                    </li>
-                    <li>
-                        <a href="404.html">404</a>
-                    </li>
+{{--                    <li>--}}
+{{--                        <a href="shortcodes_iconbox.html">Mountain Biking</a>--}}
+{{--                    </li>--}}
+{{--                    <li>--}}
+{{--                        <a href="comingsoon.html">Comingsoon</a>--}}
+{{--                    </li>--}}
+{{--                    <li>--}}
+{{--                        <a href="404.html">404</a>--}}
+{{--                    </li>--}}
 
-                </ul>
+{{--                </ul>--}}
+{{--            </li>--}}
+            <li class="{{ Request::is('rent') ? 'active' : '' }}">
+                <a href="/events">Guide trip</a>
             </li>
+            <li class="{{ Request::is('rent_a_car') ? 'active' : '' }}">
+                <a href="/rent_a_car">Rent a car</a>
+            </li>
+
+            <li class="{{ Request::is('rent') ? 'active' : '' }}">
+                <a href="/transfers">Transfers</a>
+            </li>
+
+            <li class="{{ Request::is('rent') ? 'active' : '' }}">
+                <a href="/apartments">Apartments</a>
+            </li>
+
+
             <li class="{{ Request::is('about') ? 'active' : '' }}">
                 <a href="/about">About</a>
             </li>
+
             <li class="{{ Request::is('faq') ? 'active' : '' }}">
                 <a href="/faq">FAQ</a>
             </li>

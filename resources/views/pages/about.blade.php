@@ -21,8 +21,6 @@
     </section>
 @endsection
 @section('content')
-
-
     <section id="about" class="ls s-pb-45 s-pt-80 s-pt-md-120 s-pb-md-75 s-pb-xl-45 s-pt-xl-40 about-section">
         <div class="divider-80 d-none d-xl-block"></div>
         <div class="image_cover"></div>
