@@ -5,8 +5,8 @@
         <ul class="nav sf-menu sf-js-enabled sf-arrows">
 
 
-            <li class="active">
-                <a href="/">HomePage</a>
+            <li class="{{ Request::is('/') ? 'active' : '' }}">
+                <a href="/" >HomePage</a>
 {{--                <ul>--}}
 {{--                    <li>--}}
 {{--                        <a href="index.html">MultiPage</a>--}}
@@ -19,8 +19,8 @@
 {{--                    </li>--}}
 {{--                </ul>--}}
             </li>
-            <li>
-                <a href="/events">Events</a>
+            <li class="{{ Request::is('events') ? 'active' : '' }}">
+                <a href="/events" >Events</a>
                 <ul>
 
 
@@ -46,13 +46,13 @@
 
                 </ul>
             </li>
-            <li>
+            <li class="{{ Request::is('about') ? 'active' : '' }}">
                 <a href="/about">About</a>
             </li>
-            <li>
+            <li class="{{ Request::is('faq') ? 'active' : '' }}">
                 <a href="/faq">FAQ</a>
             </li>
-            <li>
+            <li class="{{ Request::is('contact') ? 'active' : '' }}">
                 <a href="/contact">Contact</a>
             </li>
 
