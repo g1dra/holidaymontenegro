@@ -270,7 +270,7 @@
             <div class="mt--30"></div>
         </div>
     </section>
-    <section id="quote" class="ds s-pt-80 s-pb-130 s-pt-md-115 s-pb-md-195 s-pt-xl-125 s-pb-xl-160 s-parallax s-overlay  testimonials-section">
+    <section id="quote" class="ds s-pt-80 s-pb-130 s-pt-md-115 s-pb-md-195 s-pt-xl-125 s-pb-xl-160 s-parallax s-overlay  testimonials-section" style="margin-bottom: 100px">
         <div class="container">
             <div class="row">
                 <div class="col-12">
