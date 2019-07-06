@@ -21,33 +21,43 @@
     </section>
 @endsection
 @section('content')
-    <section id="about" class="ls s-pb-45 s-pt-80 s-pt-md-120 s-pb-md-75 s-pb-xl-45 s-pt-xl-40 about-section">
-        <div class="divider-80 d-none d-xl-block"></div>
-        <div class="image_cover"></div>
-        <div class="container">
-            <div class="row d-flex justify-content-start">
-                <div class="col-12 col-lg-7 col-xl-6 ">
-                    <p class="top-subtitle">Discover story</p>
-                    <h3 class="section-heading">Of the Mountis Trip <span class="back">story</span></h3>
-                    <p>
-                        Kevin ribeye pork loin tenderloin, <span class="underline">spare ribs corned beef chicken.</span> Pancetta pork venison cupim bresaola.
-                    </p>
+<section id="about" class="ls s-pb-45 s-pt-80 s-pt-md-120 s-pb-md-75 s-pb-xl-45 s-pt-xl-40 about-section">
+    <div class="divider-80 d-none d-xl-block"></div>
+    <div class="image_cover"></div>
+    <div class="container">
+        <div class="row d-flex justify-content-start">
+            <div class="col-12 col-lg-7 col-xl-6 ">
+                <p class="top-subtitle">Discover story</p>
+                <h3 class="section-heading">Of the Holiday Montenegro <span class="back">about</span></h3>
+                <p>
+                    {{--                        Kevin ribeye pork loin tenderloin, <span class="underline">spare ribs corned beef chicken.</span> Pancetta pork venison cupim bresaola.--}}
+                    If you prefer active holiday, Montenegro is perfect place, because of very wide offer of tours that contain various types of activities.
+                    From <span class="underline">adrenaline</span> activities, to very nice hiking or biking tours.
+                    One is certain, everyone can find proper <span class="underline">entertainment</span> in Montenegro.
+                </p>
 
-                    <p class="mt--5">
-                        Rump shoulder ribeye. Ribeye turducken pastrami, hamburger shoulder <span class="underline">burgdoggen cupim</span> turkey. Jerky beef ribs biltong cupim turducken ribeye swine kevin pork chop shankle frankfurter. Turkey cupim alcatra, pork loin turducken. <span class="links-maincolor3"><a class="more" href="blog-single-@@type.html">read more<i class="fa fa-level-down" aria-hidden="true"></i></a></span>
-                    </p>
+                <p class="mt--5">
+                    {{--                        Rump shoulder ribeye. Ribeye turducken pastrami, hamburger shoulder--}}
+                    {{--                        <span class="underline">burgdoggen cupim</span> turkey.--}}
+                    {{--                        Jerky beef ribs biltong cupim turducken ribeye swine kevin pork chop shankle frankfurter.--}}
+                    {{--                        Turkey cupim alcatra, pork loin turducken.--}}
+                    {{--                        <span class="links-maincolor3">--}}
+                    {{--                            <a class="more" href="blog-single-@@type.html">read more<i class="fa fa-level-down" aria-hidden="true"></i></a>--}}
+                    {{--                        </span>--}}
+                    From Montenegro Coast over Central region to the North region, there is so many fantastic places for active holiday.
+                    Our Tourist agency in Montenegro is specialised for great activities service and many unique tours.
+                </p>
 
-                    <ul class="list-styled color-darkgrey mt-30">
-                        <li>Cruising Destination Ideas</li>
-                        <li>Deluxe Moderate And Value Disney</li>
-                        <li>France On The Road</li>
-                    </ul>
-                </div>
-                <div class="divider-60 d-none d-xl-block"></div>
+                <ul class="list-styled color-darkgrey mt-30">
+                    <li>Cruising Destination Ideas</li>
+                    <li>Deluxe Moderate And Value Disney</li>
+                    <li>France On The Road</li>
+                </ul>
             </div>
+            <div class="divider-60 d-none d-xl-block"></div>
         </div>
-    </section>
-
+    </div>
+</section>
     <section class="users-section ds s-overlay s-parallax c-mb-30 s-py-80 s-py-md-120 s-py-xl-160">
         <div class="container-fluid">
             <div class="row">

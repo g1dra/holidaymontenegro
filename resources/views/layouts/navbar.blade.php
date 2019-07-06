@@ -47,17 +47,17 @@
 {{--                </ul>--}}
 {{--            </li>--}}
             <li class="{{ Request::is('rent') ? 'active' : '' }}">
-                <a href="/events">Guide trip</a>
+                <a href="/events">Adventures</a>
             </li>
             <li class="{{ Request::is('rent_a_car') ? 'active' : '' }}">
                 <a href="/rent_a_car">Rent a car</a>
             </li>
 
-            <li class="{{ Request::is('rent') ? 'active' : '' }}">
+            <li class="{{ Request::is('transfers') ? 'active' : '' }}">
                 <a href="/transfers">Transfers</a>
             </li>
 
-            <li class="{{ Request::is('rent') ? 'active' : '' }}">
+            <li class="{{ Request::is('apartments') ? 'active' : '' }}">
                 <a href="/apartments">Apartments</a>
             </li>
 

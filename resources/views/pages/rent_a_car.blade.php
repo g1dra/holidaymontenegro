@@ -50,15 +50,130 @@
                         local agency at the time of pick up. Also, those wishing to cross the border into Montenegro
                         should keep in mind that, especially in the high season, the checkpoints at the crossings can be
                         extremely crowded, and lines of cars up to a Km are not uncommon. A good way to try to miss this
-                        is to cross on a weekday early in the morning, or late at night.
+                        is to cross on a weekday early in the morning, or late at night. For online booking visit us on <span class="underline"><a href="https://www.proauto.me/">proauto.me</a>.</span>
                     </p>
 
-{{--                    <ul class="list-styled">--}}
-{{--                        <li>Consetetur sadipscing elitr, sed diam nonumy</li>--}}
-{{--                        <li>Eirmod tempor invidunt ut labore</li>--}}
-{{--                        <li>Dolore magna aliquyam erat</li>--}}
-{{--                        <li>Sed diam voluptua. At vero eos accusam</li>--}}
-{{--                    </ul>--}}
+                    <h3>Price Table</h3>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th>Image</th>
+                                <th>Transmission</th>
+                                <th>1-3 Days</th>
+                                <th>4-7 Days</th>
+                                <th>8-14 Days</th>
+                                <th>14+ Days</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>KIA PICANTO</td>
+                                <td><img src="/images/cars/kia.jpg" alt="KIA PICANTO" style="height: 70px"></td>
+                                <td>manuel</td>
+                                <td>32</td>
+                                <td>30</td>
+                                <td>25</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>VOLKSVAGEN UP</td>
+                                <td><img src="/images/cars/vwup.jpg" alt="VOLKSVAGEN UP" style="height: 70px"></td>
+                                <td>manuel</td>
+                                <td>32</td>
+                                <td>30</td>
+                                <td>25</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>HYUNDAI I10</td>
+                                <td><img src="/images/cars/hyundai-i10.jpg" alt="HYUNDAI I10" style="height: 70px"></td>
+                                <td>manuel</td>
+                                <td>32</td>
+                                <td>30</td>
+                                <td>25</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>CHEVROLET SPARK</td>
+                                <td><img src="/images/cars/spark.jpg" alt="CHEVROLET SPARK" style="height: 70px"></td>
+                                <td>manuel</td>
+                                <td>32</td>
+                                <td>30</td>
+                                <td>25</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>OPEL CORASA</td>
+                                <td><img src="/images/cars/corsa.jpg" alt="OPEL CORASA" style="height: 70px"></td>
+                                <td>automatic</td>
+                                <td>35</td>
+                                <td>30</td>
+                                <td>28</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>OPEL MERIVA</td>
+                                <td><img src="/images/cars/meriva.jpg" alt="OPEL MERIVA" style="height: 70px"></td>
+                                <td>manual</td>
+                                <td>40</td>
+                                <td>38</td>
+                                <td>25</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>HYUNDAI I30</td>
+                                <td><img src="/images/cars/hyndai-i30.jpg" alt="HYUNDAI I30" style="height: 70px"></td>
+                                <td>manual</td>
+                                <td>40</td>
+                                <td>38</td>
+                                <td>25</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>SKODA OCTAVIA</td>
+                                <td><img src="/images/cars/octavia.jpg" alt="SKODA OCTAVIA" style="height: 70px"></td>
+                                <td>automatic</td>
+                                <td>45</td>
+                                <td>42</td>
+                                <td>40</td>
+                                <td>35</td>
+                            </tr>
+                            <tr>
+                                <td>NISSAN JUKE</td>
+                                <td><img src="/images/cars/juke.jpg" alt="NISSAN JUKE" style="height: 70px"></td>
+                                <td>automatic</td>
+                                <td>45</td>
+                                <td>42</td>
+                                <td>40</td>
+                                <td>35</td>
+                            </tr>
+                            <tr>
+                                <td>PEUGEOT 5008 5+2</td>
+                                <td><img src="/images/cars/5008.jpg" alt="PEUGEOT 5008 5+2" style="height: 70px"></td>
+                                <td>automatic</td>
+                                <td>45</td>
+                                <td>42</td>
+                                <td>40</td>
+                                <td>35</td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <ul class="list-styled">
+                        <li><span class="underline">Prices are valid from 15.09 to 30.04</span></li>
+                        <li>Prices are in € (euros)</li>
+                        <li>VAT is included in price</li>
+                        <li>Unlimited mileage</li>
+                        <li>Basic insurance. Client can buy extra insurance for full casco protection</li>
+                        <li>Green card for border cross is 20 euros additional for all period of rent</li>
+                        <li>We can provide child seat, wi fi routers and gps device</li>
+                        <li>We wait for client at airport arrivals or car delivery can be provided at apartment or hotel where client is situated.</li>
+                        <li>Car type can be changed for another car of the same class or bigger class.</li>
+                    </ul>
 
 
 {{--                    <blockquote>--}}
