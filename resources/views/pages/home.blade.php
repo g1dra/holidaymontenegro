@@ -291,7 +291,7 @@
                                     <div class="divider-30 hidden-above-md"></div>
                                     <div class="divider-30 hidden-below-md"></div>
                                     <div>
-                                        <img src="images/signature.png" alt="img">
+{{--                                        <img src="images/signature.png" alt="img">--}}
                                     </div>
                                 </blockquote>
                             </div>
@@ -315,7 +315,7 @@
                                     <div class="divider-30 hidden-above-md"></div>
                                     <div class="divider-30 hidden-below-md"></div>
                                     <div>
-                                        <img src="images/signature.png" alt="img">
+{{--                                        <img src="images/signature.png" alt="img">--}}
                                     </div>
                                 </blockquote>
                             </div>
@@ -339,7 +339,7 @@
                                     <div class="divider-30 hidden-above-md"></div>
                                     <div class="divider-30 hidden-below-md"></div>
                                     <div>
-                                        <img src="images/signature.png" alt="img">
+{{--                                        <img src="images/signature.png" alt="img">--}}
                                     </div>
                                 </blockquote>
                             </div>
