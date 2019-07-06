@@ -25,7 +25,8 @@
         <div class="container mt--10">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Apartments</h2>
+                    <p class="top-subtitle">Holiday Montenegro</p>
+                    <h3 class="section-heading">Apartments</h3>
                     <hr>
                     <p>
                         Find the best place to stay in Montenegro. We can offer you hotels and private apartments all over Montenegro.
