@@ -25,7 +25,9 @@
         <div class="container mt--10">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Rent a car</h2>
+                    <p class="top-subtitle">Holiday Montenegro</p>
+                    <h3 class="section-heading">Rent a car</h3>
+                    <p>
                     <hr>
                     <p>
                         - Renting a car for your Montenegro holiday is one of the the best ways to make your holiday

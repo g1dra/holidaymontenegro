@@ -25,7 +25,9 @@
         <div class="container mt--10">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Transfers</h2>
+                    <p class="top-subtitle">Holiday Montenegro</p>
+                    <h3 class="section-heading">Transfer</h3>
+                    <p>
                     <hr>
                     <p>
                         - All of you adventurous nomads and discovery addicts who are into soaking up the beauties of
@@ -46,13 +48,13 @@
             <div class="table-responsive">
                 <table class="table table-bordered">
                     <thead>
-                        <tr>
-                            <td>#</td>
-                            <td>Economy <i class="color-darkgrey fa fa-car" aria-hidden="true"></i></td>
-                            <td>Business <i class="color-darkgrey fa fa-car" aria-hidden="true"></i></td>
-                            <td>Family <i class="color-darkgrey fa fa-taxi" aria-hidden="true"></i></td>
-                            <td>Minivan <i class="color-darkgrey fa fa-bus" aria-hidden="true"></i></td>
-                        </tr>
+                    <tr>
+                        <td>#</td>
+                        <td>Economy <i class="color-darkgrey fa fa-car" aria-hidden="true"></i></td>
+                        <td>Business <i class="color-darkgrey fa fa-car" aria-hidden="true"></i></td>
+                        <td>Family <i class="color-darkgrey fa fa-taxi" aria-hidden="true"></i></td>
+                        <td>Minivan <i class="color-darkgrey fa fa-bus" aria-hidden="true"></i></td>
+                    </tr>
                     </thead>
                     <tbody>
                     <tr>
@@ -61,20 +63,20 @@
                         </td>
                         <td>
                             3 <i class="color-darkgrey fa fa-user" aria-hidden="true"
-                               title="Maximum number of passengers"></i>
+                                 title="Maximum number of passengers"></i>
 
                         </td>
                         <td>
                             3 <i class="color-darkgrey fa fa-user" aria-hidden="true"
-                               title="Maximum number of passengers"></i>
+                                 title="Maximum number of passengers"></i>
                         </td>
                         <td>
                             4 <i class="color-darkgrey fa fa-user" aria-hidden="true"
-                               title="Maximum number of passengers"></i>
+                                 title="Maximum number of passengers"></i>
                         </td>
                         <td>
                             7 <i class="color-darkgrey fa fa-user" aria-hidden="true"
-                               title="Maximum number of passengers"></i> 
+                                 title="Maximum number of passengers"></i>
                         </td>
                     </tr>
                     <tr>
@@ -83,8 +85,8 @@
                         </td>
                         <td>
                             2 <i class="color-darkgrey fa fa-suitcase"
-                               title="Maximum number of passengers"
-                               aria-hidden="true"></i>
+                                 title="Maximum number of passengers"
+                                 aria-hidden="true"></i>
                         </td>
                         <td>
                             3 <i class="color-darkgrey fa fa-suitcase"
@@ -101,13 +103,65 @@
                                  title="Maximum number of passengers"
                                  aria-hidden="true"></i>
                         </td>
-
                     </tr>
-
-
                     </tbody>
                 </table>
             </div>
+            <h2>Transfers</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td>PODGORICA</td>
+                        <td>BUDVA</td>
+                        <td>30€</td>
+                    </tr>
+                    <tr>
+                        <td>PODGORICA</td>
+                        <td>ZABLJAK</td>
+                        <td>45€</td>
+                    </tr>
+                    <tr>
+                        <td>PODGORICA</td>
+                        <td>DUBROVNIK</td>
+                        <td>90€</td>
+                    </tr>
+                    <tr>
+                        <td>PODGORICA</td>
+                        <td>TIRANA</td>
+                        <td>70€</td>
+                    </tr>
+                    <tr>
+                        <td>PODGORICA</td>
+                        <td>ULCINJ</td>
+                        <td>35€</td>
+                    </tr>
+                    <tr>
+                        <td>PODGORICA</td>
+                        <td>KOTOR</td>
+                        <td>35€</td>
+                    </tr>
+                    <tr>
+                        <td>PODGORICA</td>
+                        <td>HERCEG NOVI</td>
+                        <td>40€</td>
+                    </tr>
+                    <tr>
+                        <td>PODGORICA</td>
+                        <td>BAR</td>
+                        <td>30€</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <ul class="list-styled">
+                <li>Prices are calculated in one way.</li>
+                <li>In case that we need to wait the client and return him back, additional charge is included. 30€
+                    extra payment if driver need to wait for client more than 1:30 hour.
+                </li>
+            </ul>
+
         </div>
     </section>
 @endsection
