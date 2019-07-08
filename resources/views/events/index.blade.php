@@ -5,7 +5,7 @@
             <div class="row">
 
                 <div class="col-md-12 text-center">
-                    <h1 class="bold">Events</h1>
+                    <h1 class="bold">Adventures</h1>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">
                             <a href="/">Home</a>
@@ -14,7 +14,7 @@
 {{--                            <a href="#">Homepage</a>--}}
 {{--                        </li>--}}
                         <li class="breadcrumb-item active">
-                            Events
+                            Adventures
                         </li>
                     </ol>
                 </div>
@@ -75,6 +75,21 @@
                     </div>
 
                     <div class="row isotope-wrapper masonry-layout c-gutter-0" data-filters=".gallery-filters">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                         <div class="col-xl-3 col-lg-4 col-md-6 private driving">
 

@@ -51,9 +51,11 @@ class PageController extends Controller
 
     public function sendMail(Request $request)
     {
+        $mail = $request->input();
+//        dd($mail);
         $user = new \stdClass();
         $user->email = 'info@holidaymontenegro.com';
-        \Mail::to($user)->send(new ContactMail($request));
+        \Mail::to($user)->send(new ContactMail($mail));
         return 'success';
     }
 
@@ -71,5 +73,6 @@ class PageController extends Controller
     {
         return view('pages.apartments');
     }
+
 
 }

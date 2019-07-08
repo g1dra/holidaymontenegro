@@ -10,15 +10,16 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
-
+    /** @var object Should contain a description */
+    public $mail;
     /**
      * Create a new message instance.
-     *
+     * @param  $mail
      * @return void
      */
-    public function __construct()
+    public function __construct($mail)
     {
-        //
+        $this->mail = $mail;
     }
 
     /**
@@ -28,6 +29,7 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->view('pages.mail');
+        return $this->markdown('vendor.mail.html.mail')
+            ->subject('Contact Mail');
     }
 }
