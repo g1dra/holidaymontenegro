@@ -6,6 +6,8 @@ use App\Event;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redis;
 use App\Mail\ContactMail;
+use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 class PageController extends Controller
 {
@@ -44,9 +46,15 @@ class PageController extends Controller
 
     public function test()
     {
-        $events = Event::all();
-        $events = json_encode($events);
-        return view('test', compact('events'));
+
+        $types = ['cycling','surfing', 'kayak', 'safari', 'hiking',
+                'paragliding', 'canyoning', 'horse riding', 'zip line', 'ATV', 'rafting'];
+        foreach ($types as $type)
+        {
+            DB::table('types')->insert(['name' => $type, 'created_at' => Carbon::now(), 'updated_at' => Carbon::now()]);
+        }
+
+        return view('test');
     }
 
     public function sendMail(Request $request)

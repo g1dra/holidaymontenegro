@@ -31,7 +31,9 @@
 {{--                    </ul>--}}
 {{--                </div>--}}
 {{--            </div>--}}
+            @desktop
             <div class="row align-items-center">
+
                 <div class="col-12 col-md-4 col-xl-4">
                     <div class="media" id="holiday-numbers-holder">
                         <div id = "holiday-icon-holder">
@@ -44,13 +46,16 @@
 
 {{--                        </div>--}}
                         <div id="holiday-phone-holder">
+
                             <p> <span class="flag-icon flag-icon-tr"></span> +382 63 493 586</p>
                             <p title="WhatsApp"> <span class="flag-icon flag-icon-tr"></span> +382 63 493 587</p>
                             <p> <span class="flag-icon flag-icon-me"></span> +382 67 094 002</p>
-{{--                            <p> <span class="flag-icon flag-icon-me"></span> +382 67 258 232</p>--}}
+                            <p> <span class="flag-icon flag-icon-me"></span> +382 67 258 232</p>
+
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 text-center hidden-below-md" style="margin: 0">
                     <a href="./" >
                         <img src="/images/logo.png" alt="img">
@@ -61,11 +66,11 @@
                         <li class="dropdown-language">
                             <div class="dropdown">
                                 <a class="dropdown-toggle" href="#" role="button" id="dropdown-language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img src="images/flags/us.gif" alt="img">
+                                    <img src="/images/flags/us.gif" alt="img">
                                     English
                                 </a>
                                 <div class="dropdown-menu ls" aria-labelledby="dropdown-language" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(25px, 18px, 0px); padding: 20px;">
-                                    <a href="#"><img src="images/flags/tr.gif" alt="img">Turkish</a>
+                                    <a href="#"><img src="/images/flags/tr.gif" alt="img">Turkish</a>
 
                                 </div>
                             </div>
@@ -85,6 +90,38 @@
 
                 </div>
             </div>
+            @elsedesktop
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 col-xl-4">
+                    <div class="media">
+									<span class="icon-styled ">
+										<i class="fa color-main2 fa-phone"></i>
+									</span>
+                        <div class="media-body">
+                            <span class="small-text">Booking your trip</span>
+                            <p>+382 63 493 586</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 text-center hidden-below-md">
+                    <a href="./" class="logo">
+                        <img src="images/logo.png" alt="img">
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-xl-4">
+                    <div class="media">
+                        <div class="media-body align-items-end">
+                            <span class="small-text">our emailaddress</span>
+                            <p>info@holidaymontenegro.com</p>
+                        </div>
+                        <span class="icon-styled ">
+										<i class="fa color-main2 fa-pencil"></i>
+									</span>
+                    </div>
+                </div>
+            </div>
+            @enddesktop
         </div>
 
     </section>
@@ -111,7 +148,7 @@
                         <div class="media">
                             <div class="media-body align-items-end">
                                 <span class="small-text">our emailaddress</span>
-                                <p>mountis@office.com</p>
+                                <p>info@holidaymontenegro.com</p>
                             </div>
                             <span class="icon-styled ">
 											<i class="fa color-main2 fa-pencil"></i>

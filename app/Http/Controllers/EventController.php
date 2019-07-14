@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Event;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class EventController extends Controller
 {
@@ -13,7 +15,8 @@ class EventController extends Controller
      */
     public function index()
     {
-        return view('events.index');
+        $events = Event::all();
+        return view('events.index', compact('events'));
     }
 
     /**
@@ -23,7 +26,8 @@ class EventController extends Controller
      */
     public function create()
     {
-        //
+        $locations = DB::table('locations')->get();
+        return view('events.create', compact(['locations']));
     }
 
     /**
@@ -45,7 +49,8 @@ class EventController extends Controller
      */
     public function show($id)
     {
-        //
+        $event = Event::find($id);
+        return view('events.show', compact('event'));
     }
 
     /**

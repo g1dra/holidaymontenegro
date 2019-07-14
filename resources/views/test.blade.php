@@ -26,9 +26,7 @@
 @section('content')
     <section class="ls routs routs-main s-py-80 s-py-md-120 s-py-xl-160">
         <div class="container-fluid">
-            <div class="row">
-                <example-component :events="{{$events}}"></example-component>
-            </div>
+
         </div>
     </section>
 @endsection

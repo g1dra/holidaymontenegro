@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="/css/font-awesome.css">
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="/css/main3.css" class="color-switcher-link">
+
     <script src="/js/vendor/modernizr-custom.js"></script>
 
     <!--[if lt IE 9]>
@@ -28,5 +29,5 @@
     <script src="/js/vendor/respond.min.js"></script>
     <script src="/js/vendor/jquery-1.12.4.min.js"></script>
     <![endif]-->
-
+    @yield('custom-css')
 </head>
